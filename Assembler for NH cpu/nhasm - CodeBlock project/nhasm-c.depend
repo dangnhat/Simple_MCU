@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1388507230 source:d:\study\computerengineering\computerprogramming\codeblock-working\nhasm-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<ctype.h>
+
+1388507230 
+
+1388507230 source:/home/nhatpham/fpga_working/HDL/Assignment/Assembler for NH cpu/nhasm - CodeBlock project/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<ctype.h>
+

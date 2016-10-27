@@ -1,0 +1,103 @@
+LI R7 IOSEG
+WSEG R7
+
+LI R2 1
+STR R2 LEDL
+
+loop:
+
+LI R1 1
+
+LI R7 IOSEG
+WSEG R7
+LD R3 BTNL
+
+CMP R3 R1 = 
+LI R7 0
+WSEG R7
+BT shr
+
+SHL R2 R2 R1
+JMP cont
+
+shr:
+SHR R2 R2 R1
+
+cont:
+
+LI R0 0
+CMP R2 R0 =
+
+LI R7 0
+WSEG R7
+BT reload
+JMP next
+
+reload:
+
+LI R7 IOSEG
+WSEG R7
+LD R3 BTNL
+
+CMP R3 R1 = 
+LI R7 0
+WSEG R7
+BT reloadR
+
+LI R2 1
+JMP cont2
+
+reloadR:
+LI R2 128
+
+cont2:
+
+next:
+
+LI R7 IOSEG
+WSEG R7
+STR R2 LEDL
+STR R2 LEDH
+
+LI R7 0
+WSEG R7
+JAL delay100ms
+JAL delay100ms
+JAL delay100ms
+JAL delay100ms
+JAL delay100ms
+JAL delay100ms
+JAL delay100ms
+
+LI R7 0
+WSEG R7
+JMP loop
+
+delay100ms:
+LI R6 255
+LI R1 1
+LI R0 0
+
+WSEG R0
+
+delay_1:
+JMP delay_2
+
+delay_12:
+SUB R6 R6 R1
+CMP R6 R0 =
+BT exit
+
+JMP delay_1
+
+delay_2:
+LI R5 255
+
+delay_21:
+SUB R5 R5 R1
+CMP R5 R0 = 
+BT delay_12
+JMP delay_21
+
+exit:
+RET

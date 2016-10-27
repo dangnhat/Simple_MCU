@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_27'
+Slack : -24.433
+TNS   : -2705.771
+
+Type  : Slow Model Setup 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : -10.563
+TNS   : -10.563
+
+Type  : Slow Model Hold 'CLOCK_27'
+Slack : -0.420
+TNS   : -0.624
+
+Type  : Slow Model Hold 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : 3.065
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_27'
+Slack : -2.000
+TNS   : -520.380
+
+Type  : Slow Model Minimum Pulse Width 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_27'
+Slack : -10.009
+TNS   : -1084.163
+
+Type  : Fast Model Setup 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : -4.821
+TNS   : -4.821
+
+Type  : Fast Model Hold 'CLOCK_27'
+Slack : -0.649
+TNS   : -3.170
+
+Type  : Fast Model Hold 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : 1.326
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_27'
+Slack : -2.000
+TNS   : -520.380
+
+Type  : Fast Model Minimum Pulse Width 'datapath:u2|instruction_reg:IR|data_out[11]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

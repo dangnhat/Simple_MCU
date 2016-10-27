@@ -1,0 +1,3 @@
+LI R1 3
+LI R2 2
+CMP R1 R2 !=

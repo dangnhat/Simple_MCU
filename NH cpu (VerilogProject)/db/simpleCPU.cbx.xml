@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="simpleCPU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|ALU:dpALU|ADD:U0|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_laj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|ALU:dpALU|COMP:U4|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_sjh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|Mux_x:mux1|mux_x:u0|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_eoc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|RAM2port:memory|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fcb2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|ALU:dpALU|DIV:U3|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_ghs.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|ALU:dpALU|MUL:U2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_a8n.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|Mux_y:mux2|mux8_16b:u0|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_joc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|ALU:dpALU|SUB:U1|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_dlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simpleCPU|datapath:u2|Mux_data_reg:muxDataReg|mux2_8b:u0|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

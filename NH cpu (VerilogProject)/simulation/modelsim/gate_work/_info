@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Study\ComputerEngineering\Verilog-working\simpleCPU\simulation\modelsim
+vsimpleCPU
+IZCm_F9QoN<Y4lP^iF?Bz>2
+VOZFUDjQcXJC^zA_GSd6?N2
+Z1 dD:\Study\ComputerEngineering\Verilog-working\simpleCPU\simulation\modelsim
+w1388205124
+8simpleCPU.vo
+FsimpleCPU.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nsimple@c@p@u
+!i10b 1
+!s100 C5dUe1FUNgT901@X6Xc=?2
+!s85 0
+!s108 1388392637.217000
+!s107 simpleCPU.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|simpleCPU.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vtestbench_CPU
+!i10b 1
+!s100 WRilLWP9X?BlQ:<M_K=CR3
+IH2ROK_UMMRQ[VHTm`Mo]S3
+VceOkH[KjTT0kN[P:HYc^T3
+R1
+w1386080283
+8D:/Study/ComputerEngineering/Verilog-working/simpleCPU/testbench_CPU.v
+FD:/Study/ComputerEngineering/Verilog-working/simpleCPU/testbench_CPU.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1388392637.904000
+!s107 D:/Study/ComputerEngineering/Verilog-working/simpleCPU/testbench_CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Study/ComputerEngineering/Verilog-working/simpleCPU|D:/Study/ComputerEngineering/Verilog-working/simpleCPU/testbench_CPU.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/Study/ComputerEngineering/Verilog-working/simpleCPU -O0
+ntestbench_@c@p@u

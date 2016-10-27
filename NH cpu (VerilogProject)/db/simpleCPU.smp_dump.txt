@@ -1,0 +1,10 @@
+
+State Machine - |simpleCPU|controller:u1|state
+Name state.S_Halt state.S_Jal2 state.S_J2 state.S_MulDiv2 state.S_DecEx state.S_IF1 state.S_Idle 
+state.S_Idle 0 0 0 0 0 0 0 
+state.S_IF1 0 0 0 0 0 1 1 
+state.S_DecEx 0 0 0 0 1 0 1 
+state.S_MulDiv2 0 0 0 1 0 0 1 
+state.S_J2 0 0 1 0 0 0 1 
+state.S_Jal2 0 1 0 0 0 0 1 
+state.S_Halt 1 0 0 0 0 0 1 

@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at ALU.v(10): object "OV" differs only in case from object "ov" in the same scope
+Info (10281): Verilog HDL Declaration information at ALU.v(10): object "C" differs only in case from object "c" in the same scope
+Warning (10268): Verilog HDL information at Regs.v(187): always construct contains both blocking and non-blocking assignments
